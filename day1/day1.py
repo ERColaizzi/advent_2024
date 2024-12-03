@@ -24,12 +24,9 @@ with open('C:\\Users\\ercol\\Documents\\programming\\advent_2024\\day1\\input.tx
 list1.sort()
 list2.sort()
 
-print(list1)
-
 
 for i in range(len(list1)):
-    distance = int(list1[i]) - int(list2[i])
-
+    distance = distance + abs(int(list1[i]) - int(list2[i]))
 
 print("the distance is:",distance)
     
