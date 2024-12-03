@@ -11,13 +11,25 @@
 
 list1=[]
 list2=[]
+distance = 0
 
-with open('C:\Users\ercol\Documents\programming\advent_2024\day1\input.txt', 'r') as file:
+
+with open('C:\\Users\\ercol\\Documents\\programming\\advent_2024\\day1\\input.txt', 'r') as file:
     for line in file:
-        list1.append(listeline.split()[0])
-        list2.append(line.split()[1])
-
-print(list1,list2)
+        list1.append((line.split()[0]))
+        list2.append((line.split()[1]))
 
 
 
+list1.sort()
+list2.sort()
+
+print(list1)
+
+
+for i in range(len(list1)):
+    distance = int(list1[i]) - int(list2[i])
+
+
+print("the distance is:",distance)
+    
