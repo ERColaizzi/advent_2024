@@ -30,3 +30,19 @@ for i in range(len(list1)):
 
 print("the distance is:",distance)
     
+
+
+
+######################
+#      PART 2        #
+
+
+#count for i in L1 in L2 
+
+convergence = 0
+
+for i in range(len(list1)):
+    convergence = convergence + (int(list1[i]) * list2.count(list1[i]))
+
+print("the convergence is:",convergence)
+
