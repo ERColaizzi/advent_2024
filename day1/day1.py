@@ -14,7 +14,8 @@ list2=[]
 distance = 0
 
 
-with open('C:\\Users\\ercol\\Documents\\programming\\advent_2024\\day1\\input.txt', 'r') as file:
+#with open('C:\\Users\\ercol\\Documents\\programming\\advent_2024\\day1\\input.txt', 'r') as file:
+with open(r'C:\Users\ercol\Documents\programming\advent_2024\day1\input.txt', 'r') as file:
     for line in file:
         list1.append((line.split()[0]))
         list2.append((line.split()[1]))
